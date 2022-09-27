@@ -11,7 +11,8 @@ Date: 09/22/2022
  footer,
  img,
  h1,
- h3 {
+ h3,
+ ul {
      margin: 0;
      padding: 0;
      border: 0;
@@ -26,18 +27,45 @@ Date: 09/22/2022
      display: block;
  }
 
+ /* Style rules for mobile viewport */
+
+
+ /* Style rules to show mobile class and hide tab-desk class. */
+ .mobile {
+     display: block;
+ }
+
+ /* Style rules for header area */
+ .mobile h1,
+ h3 {
+     padding: 2%;
+     text-align: center;
+ }
+
+ .mobile h1 {
+     font-family: 'Emblema One', cursive;
+ }
+
+ .mobile h3 {
+     font-family: 'Lora', serif;
+ }
+
+ .tab-desk {
+     display: none;
+ }
+
  nav {
      background-color: #2a1f14;
  }
 
  nav ul {
      list-style-type: none;
-     margin: 0;
      text-align: center;
  }
 
  nav li {
-     display: inline-block;
+     display: block;
+     border-top: solid .5px #f6eee4;
      font-size: 1.5em;
      font-family: Geneva, Arial, sans-serif;
      font-weight: bold;
@@ -50,11 +78,11 @@ Date: 09/22/2022
      text-decoration: none;
  }
 
-  /* Style rules for main content */
+ /* Style rules for main content */
 
  main {
      padding: 2%;
-     font-family: Verdana, Arial, sans-serif;
+     font-family: 'Lora', serif;
  }
 
  main p {
@@ -83,8 +111,29 @@ Date: 09/22/2022
      text-align: center;
  }
 
+ .round {
+     border-radius: 6px;
+ }
+
+ #info ul {
+     margin-left: 10%;
+ }
+
  #contact {
      text-align: center;
+ }
+
+ .tel-link {
+     background-color: #2a1f14;
+     padding: 2%;
+     width: 80%;
+     margin: 0 auto;
+ }
+
+ .tel-link a {
+     color: #f6eee4;
+     text-decoration: none;
+     font-weight: bold;
  }
 
  /* Style rules for footer content */
