@@ -149,6 +149,7 @@ Date: 09/22/2022
      color: #f3e6d8;
      text-decoration: none;
  }
+<<<<<<< HEAD
 
  /* Media Query for Tablet Viewport */
  @media screen and (min-width:620px) {
@@ -210,3 +211,5 @@ Date: 09/22/2022
  #info ul {
      margin-left: 5%;
  }
+=======
+>>>>>>> 3ba6abc7c12916419a59fec9746162bdb847100c
